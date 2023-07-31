@@ -30,6 +30,7 @@ jobs:
           template: classic
           base: header
           filename: basic.svg
+          config_order: base.header, isocalendar, languages, discussions, topics
           config_timezone: Asia/Shanghai
           plugin_discussions: yes
           plugin_discussions_categories: yes
