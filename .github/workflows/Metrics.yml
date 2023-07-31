@@ -29,6 +29,7 @@ jobs:
           user: Sokach99
           template: classic
           base: header
+          filename: basic.svg
           config_timezone: Asia/Shanghai
           plugin_discussions: yes
           plugin_discussions_categories: yes
@@ -49,7 +50,7 @@ jobs:
           plugin_topics_limit: 15
           plugin_topics_mode: icons
           plugin_topics_sort: stars
-      - name: media
+      - name: medias
         uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
@@ -66,6 +67,7 @@ jobs:
           user: Sokach99
           template: classic
           base: ""
+          filename: medias.svg
           config_timezone: Asia/Shanghai
           plugin_anilist: yes
           plugin_anilist_limit: 2
